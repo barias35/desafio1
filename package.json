@@ -1,0 +1,21 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test:cucumber": "cucumber-js",
+  "debug:cucumber": "node --inspect-brk node_modules/cucumber/bin/cucumber.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@cucumber/messages": "^28.1.0",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "allure-cucumberjs": "^3.3.3",
+    "allure-playwright": "^3.3.3"
+  }
+}
